@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+body{
+    font-size: 100%;
+    background:#000000;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px;
+}
+
+.cabecalho-logo{
+    height: 100px;
+}
+
+.cabecalho-nav{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.btn-fundo-laranja{
+    background: #FA9021;
+    border-radius: 6px;
+    width: 131.77px;
+    height: 41.31px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.conteudo-principal{
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-texto{
+    gap: 50px;
+    width: 527px;
+    height: 512px;
+}
+
+.letreiro-laranja{
+    color: #E87D0E;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.letreito-titulo{
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.paragrafo-popinns{
+    font-family: Poppins;
+    font-weight: 500;
+    color: #FFFFFF; 
+    font-size: 16px;
+}
+
+.btn-laranja{
+    font-family: Poppins;
+    font-weight: 500;
+    color: #FFFFFF; 
+    font-size: 16px;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 40px;
+    width: 195px;
+    height: 53px;
+    border: none;
+}
+
+.plataformas-games{
+    display: flex;
+    height: 100px;
+    gap: 150px;
+    align-items: center;
+}
+
+.principal-games{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.titulo-divisao{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.div-titulo-games{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 63px;
+    margin-right: 63px;
+}
+
+.principal-games-imagens{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.principal-games-btn{
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    width: 139px;
+    height: 57px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.principal-games-imagens-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0px 50px 0px;
+    width: 251px;
+    height: 277px;
+}
+
+.principal-games-imagens-div-img{
+    width: 251px;
+    height: 277px;
+    object-fit: fill;
+}
+
+.principal-games-imagens-div-img-popularidade{
+    display: block;
+    width: 170px;
+    height: 41px;
+    margin: 0 auto;
+}
+
+.texto-info{
+    display: flex;
+    justify-content: center;
+    margin: 130px 300px 70px 300px  ;
+    width: 826px;
+    height: 132px;  
+}
+
+.paragrafo-popinns-grande{
+    font-family: Poppins;
+    font-weight: 600;
+    color: #FFFFFF; 
+    font-size: 35px;
+    text-align: center;
+}
+
+.conteudo-secundario{
+    display: flex;
+    width: 1440x;
+    height: 900px;
+}
+
+.texto-topo-secundario{
+    margin: 0px 748px 50px 78px;
+    width: 545px;
+    height: 173px;
+}
+
+.subtitulo-poppins{
+    padding-bottom: 32px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.conteudo-secundario-img{
+    padding-top: 46px;
+    width: 1346px;
+    height: 562px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.conteudo-desenvolvimento{
+    width: 1440px;
+    height: 881px;
+    background-image: url("/img/Rectangle 5.png");
+    object-fit: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.conteudo-desenvolvimento-div-principal{
+    display: flex; 
+    flex-direction: column;
+}
+
+.conteudo-desenvolvimento-div-textos{
+    width: 826px;
+    height: 197px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.conteudo-desenvolvimento-div-titulo{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 56px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.conteudo-desenvolvimento-div-paragrafo{
+    margin: 0 auto;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 187.5%;
+    text-align: center;
+}
+
+.conteudo-desenvolvimento-items-1{
+    width: 1045px;
+    height: 400px;
+    display: flex;
+    margin-left: 160px;
+    align-items: center;
+}
+
+.conteudo-desenvolvimento-items-divisao{
+    width: 220px;
+    height: 170px;
+    margin-right: 100px;
+}
+
+.conteudo-desenvolvimento-items-divisao-paragrafo {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    width: 220px;
+    height: 30px;
+}
+
+.conteudo-desenvolvimento-items-divisao-img{
+    display: grid;
+    margin: 0 auto;
+}
+
+.conteudo-desenvolvimento-items-2{
+    width: 327px;
+    height: 168px;
+    display: flex;
+    margin-left: 480px;
+    align-items: center;
+}
+
+.projetos-principais{
+    display: flex;
+    align-items: center;
+}
+.projetos-principais-div{
+    width: 1170px;
+    height: 878px;
+    margin: 0 auto;
+    margin-top: 141px;
+    justify-content: center;
+    margin-bottom: 105px;
+}
+
+.paragrafo-popinns-pequeno{
+    font-family: Poppins;
+    font-weight: 400;
+    color: #FFFFFF; 
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.projetos-principais-div-img{
+    display: flex;
+    width: 1170px;
+    height: 540px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 71px;
+}
+
+.principal-games-btn-final{
+    display: grid;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    width: 139px;
+    height: 57px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.campo-inscricao-div-principal{
+    width: 1170px;
+    height: 392px;
+    margin: 0 auto;
+    margin-bottom: 242px;
+}
+
+.campo-inscricao-div-principal-texto{
+    margin-bottom: 68px;
+}   
+
+.campo-inscricao-div-cadastro{
+    width: 1170px;
+    height: 189px;
+    background: #1C140F;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.campo-inscricao-div-cadastro-infos{
+    width: 636px;
+    height: 107px;
+    margin: 40px 0 42px 56px;
+}
+
+.paragrafo-popinns-cadastro{
+    font-family: Poppins;
+    font-weight: 400;
+    color: #FFFFFF; 
+    font-size: 17px;
+    line-height: 25.5px;
+    padding-right: 30px;
+}
+
+.subtitulo-poppins-cadastro{
+    padding-bottom: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.campo-inscricao-form{
+    width: 386px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    margin: 71px 50px 70px 0;
+    display: flex;
+}
+
+.campo-inscricao-texto{
+    border: none;
+    color: #898989;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    flex-grow: 2;
+    border-radius: 8px;
+}
+
+.campo-inscricao-texto:focus{
+    outline: none;
+    initial-value: "";
+}
+
+.campo-inscricao-btn{
+    width: 105px;
+    height: 37px;
+    background: #DC7000;
+    border-radius: 8px;
+    border: none;
+    margin: 6px 6px 6px 0;
+}
+
+footer{
+    margin: 0 auto;
+    border-bottom: 0.8px solid #D2D2D2;
+}
+
+.footer-div-principal{
+    width: 1219px;
+    height: 161px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.fonte-poppins-800-24px{
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.footer-div-principal-links-1{
+    width: 372px;
+    height: 160px;
+    margin: 0px 30px 0px 0;
+}
+
+.fonte-poppins-400-16px{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-div-principal-links-2{
+    width: 165px;
+    height: 160px;
+    margin: 0px 50px 0px 28px;
+}
+
+.footer-div-principal-links-3{
+    width: 282px;
+    height: 160px;
+}
+
+.footer-div-principal-links-redes{
+    width: 184px;
+    height: 34px;
+    display: flex;
+    margin: 105px 0px 0px 83px;
+}
+
+.p-final{
+    margin: 29px 0 29px 0;
+    text-align: center;
+    justify-content: center;
+}
